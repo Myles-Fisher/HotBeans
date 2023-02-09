@@ -1,0 +1,328 @@
+h1 {
+  color: white;
+  padding: 5px;
+  font-style: comic sans;
+}
+
+h2 {
+  font-size: 50px;
+  margin-left: 35px;
+  font-style: comic sans;
+}
+
+p {
+  margin-left: 70px;
+  font-size: 30px;
+  font-style: comic sans;
+}
+
+h3 {
+
+  font-size: 45px;
+  font-style: comic sans;
+}
+
+button {
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4x 2px;
+  border-radius: 30x;
+  color: white;
+  background-color: black;
+  border-color: aqua;
+  margin-top: 20px;
+  margin-left: 15px;
+  width: 300px;
+
+
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+body {
+  background-color: grey;
+}
+
+.s {
+  width: 1505px;
+  height: 600px;
+  background-color: rgb(49, 48, 48);
+  display: flex;
+}
+
+.w {
+  width: 750px;
+  height: 600px;
+  background-color: rgb(48, 47, 47);
+  border: 2px solid rgb(245, 245, 248);
+}
+
+@media only screen and (min-width: 600px) {
+
+  /* For tablets: */
+  .col-s-1 {
+    width: 9.75%;
+  }
+
+  .col-s-2 {
+    width: 13.75%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 45.45%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 54.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 80%;
+  }
+
+  .col-s-11 {
+    width: 95.33%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For desktop: */
+  .col-s-1 {
+    width: 9.75%;
+  }
+
+  .col-s-2 {
+    width: 13.75%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 45.45%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 54.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 80%;
+  }
+
+  .col-s-11 {
+    width: 95.33%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+
+.codeImg {
+  width: calc(1555px / 1.7);
+  height: calc(1017px / 1.7);
+}
+
+.codeimg2 {
+  width: 750px;
+  height: 600px;
+}
+
+.navbar {
+  display: flex;
+  overflow: hidden;
+  background-color: rgb(19, 18, 18);
+  border-radius: 12px;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(253, 254, 255);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: rgb(71, 42, 238);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: #0a0a0a;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #1b43f7;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(121, 119, 119);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: rgb(87, 84, 84);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #686767;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.p {
+  width: 350px;
+  height: 300px;
+  margin-left: 50px;
+}
